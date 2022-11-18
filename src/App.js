@@ -1,9 +1,9 @@
-import Login from "./login";
+import Login from "./bootstrap/login";
 
 function App() {
   return (
-    <div className="App">
-      <Login username="tamil" age="25"/>
+    <div >
+      <Login />
     </div>
   );
 }
